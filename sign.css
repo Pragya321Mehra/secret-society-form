@@ -1,0 +1,113 @@
+*{
+    background-color: #000000ee;
+   margin:0;
+    padding:0;
+    
+
+}
+.box
+{ margin: 0;
+    padding: 0;
+    width: 1350px;
+    height: 650px;
+   display: flex;
+   justify-content: space-around;
+}
+.image
+{
+    background-image: url('https://images.ctfassets.net/usf1vwtuqyxm/3YD0qrb5oImvSfVIoJpKCA/54da7b9ce13236893f5f0b0dc55a8018/visions-of-magic-hero.jpg?w=595&h=595&fit=fill');
+    width: 600px;
+    height:650px;
+    display: flex;
+    size-adjust: none;
+    flex-shrink: 0;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(./HARRYP__.TTF);
+  }
+  
+  /* .harry{
+    width: 100px;
+    height: 100px;
+    
+    border-radius: 10px;
+    margin: 10px;
+    position: relative;
+    animation-name: rightMovement;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+     animation-timing-function: linear; 
+    animation-direction:normal; 
+     animation-fill-mode: backwards; 
+
+    
+}
+
+@keyframes rightMovement {
+    from {
+        top: 0;
+        left: 0;
+    }
+
+    to {
+        top: 900px;
+        left: 1000px;
+    }
+} */
+.texting
+{
+    font-family: myFirstFont;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow:   #FC0 1px 0 10px;;
+    color: gold;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 300px;
+    text-align: center;
+
+
+}
+
+input:focus{
+    outline: none;
+    border: 2px solid #FC0;
+}
+input
+{
+    background-color: #00000035;
+    border: none;
+    border-bottom: 2px solid #FC0;
+    font-size: 20px;
+    font-family: myFirstFont;
+    font-weight: bold;
+    text-shadow:   #FC0 1px 0 10px;
+    color: gold;
+    margin-top: 10px;
+    padding: 10px;
+    width: 400px;
+    height: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    flex-shrink: 0;
+}
+form
+{
+   background-color: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 30px;
+    width: 600px;
+    font-family: myFirstFont;
+    font-weight: bold;
+    text-shadow:   #FC0 1px 0 10px;
+    color:#FC0;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+
+    flex-shrink: 0;
+}
